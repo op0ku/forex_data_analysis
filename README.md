@@ -38,7 +38,7 @@ Employed python packages such as scipy, matplotlib and seaborn for advance metri
 
 
 ## Dashboard Overview  
-![alt text](<Screenshot 2025-10-27 141121.png>)
+<img width="1301" height="799" alt="Screenshot 2025-10-27 141121" src="https://github.com/user-attachments/assets/072d0e89-58a5-4ac5-8ef3-15927ec61123" />
 
 This dashboard shows the key metrics employed to measure the past performance of the strategy over factors such as Month and the amount risked per trade in US Dollars. It shows the size of a trade outcome, whether a win or a loss in terms of median winning and losing dollar amounts, and number of trades.   
 
@@ -51,4 +51,5 @@ Finally the median win and loss for core variables implemented in the strategy a
 ## Conclusion  
 This dashboard showcases how the **BNTP strategy** performed over the one year period, over which **102 trades** were executed.  
 With a **Net Profit** in the negative, large negative **Sortino Ratio** and a less than 1 **Profit Factor** it is clear the strategy lost money, mostly due to a significantly less trades of 13% having trailing stops to lock in profits.  
+
 Also typical wins of $34.57 dollars was not able to cover a loss of -$20 given a very low win rate of 29%.
