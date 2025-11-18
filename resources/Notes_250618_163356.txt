@@ -1,0 +1,84 @@
+https://www.kdnuggets.com/a-guide-to-mastering-serverless-machine-learning
+
+https://www.nature.com/articles/s41467-025-59131-4
+
+https://www.kdnuggets.com/why-how-to-containerize-your-existing-python-apps
+
+https://www.kdnuggets.com/clean-and-validate-your-data-using-pandera
+
+https://www.kdnuggets.com/data-science-etl-pipelines-with-duckdb
+
+https://www.kdnuggets.com/implementing-machine-learning-pipelines-with-apache-spark
+
+https://www.kdnuggets.com/5-error-handling-patterns-in-python-beyond-try-except
+
+https://machinelearningmastery.com/how-to-perform-scikit-learn-hyperparameter-optimization-with-optuna/
+
+https://www.kdnuggets.com/5-free-tutorials-to-master-data-visualization-with-seaborn
+
+https://www.analyticsinsight.net/machine-learning/mastering-mlops-in-2025-a-step-by-step-roadmap
+
+https://www.datawrapper.de/blog/chart-types-guide
+
+https://machinelearningmastery.com/step-by-step-guide-to-deploying-machine-learning-models-with-fastapi-and-docker/
+
+https://www.coursejoiner.com/development/ai-engineer-professional-certificate-course-free-course/
+
+p6573138
+
+https://towardsdatascience.com/abstract-classes-a-software-engineering-concept-data-scientists-must-know-to-succeed/
+
+https://towardsdatascience.com/boost-your-llm-outputdesign-smarter-prompts-real-tricks-from-an-ai-engineers-toolbox/
+
+https://towardsdatascience.com/regularisation-a-deep-dive-into-theory-implementation-and-practical-insights/
+
+
+PROMPT ENGINEERING FINETUNING
+
+1. Prompt Co-construction: Input your prompt and ask the LLM to fine-tune for fast production  of
+    very precise and effective prompts.
+
+Steps:
+- General structure of your prompt
+- Iterative refinement to match desired result
+- Iterative integration of edge cases or specific needs
+
+A good tip that generally helps a lot is to require the LLM to ask questions before proposing prompt modifications to insure it fully understand the need
+
+2. Use self-evaluation
+Force the LLM to self-evaluate quality of its answer before outputting it.
+Ask it to rate its own answer on a predefined scale e.g. 1 to 10.
+Ask it to improve the answer if it is below a desirable threshold
+
+
+OPTIMIZE PYTHON SCRIPTS USING LLMS
+Prompt 1: Id bottlenecks and chained operations.
+"In the script, identify which operations are likely causing slowdowns and suggest a more efficient approach"
+
+Prompt 2: Memory Efficiency
+"Improve the code to reduce memory usage for the dataset, while maintaining efficiency"
+
+Prompt 3: Parallel processing
+Independent calculations like row-wise transformations, can be paralleled for faster execution.
+Useful for simulation tasks or applying expensive functions across a dataset
+"Which parts of the code can run in parallel, while maintaining efficiency?"
+
+Prompt 4: Efficient Grouping
+Implementing aggregates like averages, maximum can slow implementation via loops.
+"how to efficiently perform summary statistics on the dataset?"
+
+Prompt 5: Vectorized Calculations
+Row-wise implementations are slow. Vectorized implementations in pandas and numpy are faster
+"use vectorized implementation to find the given metric/purpose using the given code to improve efficiency and speed"
+
+Prompt 6: Efficient Filtering and Sorting
+Filtering and Sorting are slow when using loops.
+"provide efficient solution to filter and sort the following data"
+
+Prompt 7: Using NumPy for Distance Calculation
+math computations e.g. Euclidean distances over large datasets can be extremely slow when loops are used.
+"perform calculation between features using most efficient python code to reduce memory usage and speed up processing"
+
+
+
+
